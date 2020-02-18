@@ -7,7 +7,6 @@ from tweeter import *
 def photoTweet():
   tweetTextPhoto('Bear tweet from rasp', photoCapture());
 
-
 def photoCapture():
   filename = "{0:%Y}-{0:%m}-{0:%d}-{0:%H}-{0:%M}-{0:%S}".format(datetime.now())
 
